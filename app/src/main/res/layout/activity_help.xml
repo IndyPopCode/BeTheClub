@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green">
+
+    <TextView
+        android:id="@+id/helpTextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Welcome to Be The Club!\n\nThis app helps you choose the right golf club for your shot.\n\nHere's how to use it:\n\n1. **View Clubs:** The main screen shows a list of available golf clubs.\n\n2. **Add Club:** Tap the 'Add Club' button to add a new club to the list.\n\n3. **Enter Distance:** In the 'Enter distance to target' field, type in the distance to your target in yards.\n\n4. **Suggest Club:** Tap the 'Suggest Club' button. The app will then recommend the best club for that distance.\n\n5. **Add Shot:** Tap on a club in the list to add a new shot for that club.\n\n6. **Delete Club:** Swipe a club to the left to delete it. You will be asked to confirm the deletion.\n\n7. **Help:** If you need help, tap the 'HELP' button at the top right of the main screen."
+        android:textColor="@color/very_dark_green"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
